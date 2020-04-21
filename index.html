@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <style media="screen">
+        body {
+          background-color: #FEFEFE
+        }
+      </style>
+    <title>HR Design</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+  </head>
+  <body>
+    <!-- Header/Navigation -->
+    <div id="header">
+      <div class="container" style="background-image:url(images/banner.png);background-size:100% 100%;">
+        <a class="header-logo" href="index.html"><img src="images/logo.png"></a>
+        <ul id="header-nav"><li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Slideshow Container -->
+    <div class="slideshow-container">
+      <!-- Slideshow images -->
+      <div class="slideshow fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="images/slideshow/p1000308.png" style="width:100%">
+        <div class="text">Caption 1</div>
+      </div>
+      <div class="slideshow fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="images/slideshow/p1000309.png" style="width:100%">
+        <div class="text">Caption 2</div>
+      </div>
+      <div class="slideshow fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="images/slideshow/p1000310.png" style="width:100%">
+        <div class="text">Caption 3</div>
+      </div>
+      <div class="slideshow fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="images/slideshow/p1000311.png" style="width:100%">
+        <div class="text">Caption 4</div>
+      </div>
+      <div class="slideshow fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="images/slideshow/p1000465.png" style="width:100%">
+        <div class="text">Caption 5</div>
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <!-- Dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+      <script src="slideshow.js" charset="utf-8"></script>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <p>h.r. design&trade; 2020</p>
+    </div>
+  </body>
+</html>
